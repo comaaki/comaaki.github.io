@@ -16,11 +16,12 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +75,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading"><img src="./img/coma-aki-b.png" class="center-block" alt="Coma Aki"></h1>
+                        <h1 class="brand-heading"><img src="./img/coma-aki-b.png" class="center-block" alt="Coma Aki"/></h1>
                         <p class="intro-text">O COMA AKI é uma plataforma disponibilizada em website e aplicativo
                           mobile para fornecer um serviço de busca de alimentação dentro da região potiguar, enaltecendo
                           a culinária presente e a gastronomia de pequenos aos os maiores comércios.
@@ -91,14 +92,105 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Sobre o Coma Aki</h2>
-                <p>Com o Coma Aki, o usuário pode fazer buscas customizadas e também criar seu próprio cardápio com preferências pessoais de pratos.</p>
-                <p>O usuário terá a liberdade de dar uma avaliação ao prato que comeu, e este ranking estará visível para outros usuários que tenham curiosidade de saber mais sobre.</p>
-
+            <div class="linha0 col-lg-24 col-lg-offset-0">
+                <h1>Sobre o Coma Aki</h1>
             </div>
+
+            <div class="linha1 col-lg-12 col-lg-offset-0">
+                <div class="linha1 col-lg-4 col-lg-offset-0">
+                    <h3>Busque</h3>
+                    <img src="./img/comaakiinicial.png" class="img-responsive" alt="Busca Inicial"/>
+                </div>
+
+                <div class="col-lg-4 col-lg-offset-0">
+                    <h3>Refina</h3>
+                    <img src="./img/filtro-busca.png" class="img-responsive" alt="Filtro de Busca"/>
+                </div>
+
+
+                <div class="col-lg-4 col-lg-offset-0">
+                  <h3>Avalie</h3>
+                    <img src="./img/modal.jpg" class="img-responsive" alt="Responsive image"/>
+                </div>
+            </div>
+
+
+            <div class="col-lg-12 col-lg-offset-0">
+                <div class="col-lg-4 col-lg-offset-0">
+                    <p>Com o Coma Aki, você poderá buscar qualquer tipo de refeição, e o valor? Você que decide até quanto quer pagar.</p>
+                </div>
+
+                <div class="col-lg-4 col-lg-offset-0">
+                    <p>Você poderá filtrar sua pesquisa por culinária, restaurante e até mesmo restrições alimentícias! Tudo para a sua comodidade.</p>
+                </div>
+
+                <div class="col-lg-4 col-lg-offset-0">
+                    <p>Ainda tá em dúvida do que pedir? Confira a avaliação feita para aquele produto por outros usuários e adicione observações ao seu pedido.</p>
+                </div>
+            </div>
+
         </div>
     </section>
+
+    <!-- Technology Section -->
+    <section id="technology" class="content-section text-center">
+      <div class="technology-section">
+          <div class="container">
+
+            <div class="linha0 col-lg-24 col-lg-offset-0">
+                <h1>TECNOLOGIAS UTILIZADAS</h1>
+            </div>
+
+              <div class="col-lg-24 col-lg-offset-0">
+
+                <div class="linha2 col-lg-12 col-lg-offset-0">
+
+
+                    <div class="linha2 col-lg-2 col-lg-offset-0">
+                        <img src="./img/laravel.png" class="img-responsive" alt="Laravel"/>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/mysql_hosting.png" class="img-responsive" alt="MySQL"/>
+                    </div>
+
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/php.png" class="img-responsive" alt="PhP"/>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/react.png" class="img-responsive" alt="React"/>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/redux.png" class="img-responsive" alt="Redux"/>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/trello.png" class="img-responsive" alt="Trello"/>
+                    </div>
+
+
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="content-section text-center">
+      <div class="video-section">
+          <div class="container">
+              <div class="col-lg-10 col-lg-offset-1">
+                  <h2>Confira o nosso vídeo</h2>
+                  <p>Saca só como tá a cara do nosso projeto... </p>
+                  <iframe width="853" height="505" src="https://www.youtube.com/embed/video" frameborder="0" allowfullscreen></iframe>
+              </div>
+          </div>
+      </div>
+    </section>
+
 
     <!-- Download Section -->
     <section id="download" class="content-section text-center">
@@ -113,12 +205,95 @@
         </div>
     </section>
 
+    <section id="feedback" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>O QUE VOCÊ ACHOU DO NOSSO SISTEMA?</h2>
+                <p>Sua opinião é valiosa para nós, responda o nosso formulário de feedback e conte-nos o que achou do Coma Aki!</p>
+                <a href="#" class="btn btn-default btn-lg"><span class="network-name">RESPONDER O FORMULÁRIO</span></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Section -->
+    <section id="team" class="content-section text-center">
+      <div class="team-section">
+          <div class="container">
+            <div class="linha0 col-lg-12 col-lg-offset-0">
+                <h1>EQUIPE</h1>
+            </div>
+
+              <div class="col-lg-12 col-lg-offset-1">
+
+                <div class="linha2 col-lg-12 col-lg-offset-0">
+
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/adri.jpg" class="img-responsive" alt="Adri"/>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/leisia.jpg" class="img-responsive" alt="Leisia"/>
+                    </div>
+
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/carol.jpg" class="img-responsive" alt="Carol"/>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/hele.jpg" class="img-responsive" alt="hele"/>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <img src="./img/hayssa.jpg" class="img-responsive" alt="hayssa"/>
+                    </div>
+
+                </div>
+
+                <div class="linha2 col-lg-12 col-lg-offset-0">
+
+
+                    <div class="linha2 col-lg-2 col-lg-offset-0">
+                        <h3>Adrianny<h3/>
+                          <p>Dev. Mobile</p>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <h3>Leisia<h3/>
+                          <p>Back-End</p>
+                    </div>
+
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <h3>Carolina<h3/>
+                          <p>Front-End</p>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <h3>Helenita<h3/>
+                          <p>Front-End</p>
+                    </div>
+
+                    <div class="col-lg-2 col-lg-offset-0">
+                        <h3>Hayssa<h3/>
+                          <p>Gerência e Front-End</p>
+                    </div>
+
+                </div>
+
+              </div>
+          </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contate a gente sobre o projeto!</h2>
-                <p>Sinta-se a vontade para entrar em contato conosco e dar o seu feedback pessoal sobre nossa ideia e o andamento do projeto.</p>
+                <p>Sinta-se à vontade para entrar em contato conosco e dar o seu feedback pessoal sobre nossa ideia e o andamento do projeto.</p>
                 <p><a href="mailto:comaaki.pds@gmail.com">comaaki.pds@gmail.com</a>
                 </p>
                 <ul class="list-inline banner-social-buttons">
@@ -139,7 +314,7 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>&copy; Coma Aki 2016</p>
         </div>
     </footer>
 
