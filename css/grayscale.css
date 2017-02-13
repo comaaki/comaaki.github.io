@@ -350,8 +350,12 @@ body {
 }
 
 .team-section img{
-  
+
   margin-bottom: 15%;
+}
+
+.team-section h1{
+  font-family: "Poppins", Helvetica, sans-serif;
 }
 
 
